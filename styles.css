@@ -1,0 +1,54 @@
+body{
+    font-family: "Roboto", Monaco, Arial, serif;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    color: white;
+    background-color: #1F2937;
+    padding: 0 200px 50px;
+}
+header{
+    display: flex;
+    padding: 20px 0;
+}
+
+.header-links{
+    display:flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.header-logo{
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.description{
+    display:flex;
+    justify-content: space-between;
+}
+
+.text h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text p{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
